@@ -1,0 +1,75 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: url('bghead.jpg') no-repeat center center/cover ;
+    color: white;
+    padding: 5px 0;
+    text-align: center;
+    text-shadow: 2px 2px 5px #4B5945;
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+     transition: width 10s;
+}
+nav ul li a : hover
+nav ul li a.active{
+    background: #fff;
+    color: red;
+}
+
+p.solid {border-style: solid;}
+.hero {
+    background: url('Beach.jpg') no-repeat center center/cover ;
+    color: whitesmoke;
+    padding: 100px;
+    margin: 5px;
+    text-shadow: 2px 2px 5px #4B5945;
+    font-size: 25px;
+    img-size: 40px;
+}
+
+.heroo h3{
+    font-size: 20px;
+    background: #A5BFCC;
+    color: white;
+    padding: 5px 0;
+    text-align: center;
+    text-shadow: 2px 2px 5px #4B5945;
+
+}
+
+.destinasi-item {
+    img-size: 40px;
+}
+
+}
+
+.footer {
+    text-align: center;
+    padding: 10px 0;
+    background:url('bghead.jpg') no-repeat center center/cover ;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
